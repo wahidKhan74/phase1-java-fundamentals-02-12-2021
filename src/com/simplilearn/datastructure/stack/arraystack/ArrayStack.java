@@ -32,7 +32,7 @@ public class ArrayStack {
 		if (isEmpty()) {
 			throw new EmptyStackException();
 		}
-		// remove element from top
+		// remove element from top  
 		Employee employee = stack[--top];
 		stack[top] = null;
 		return employee;
